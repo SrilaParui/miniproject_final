@@ -1,0 +1,86 @@
+body {
+    font-family: "Lato", sans-serif;
+    background-color: #202122;
+  }
+
+
+  /*Heading Block*/
+  .headingBlock{
+      margin: 7rem 4rem 1rem;
+      border-radius: 2rem;
+      background-image: url("img1.jpg");
+  }
+
+  .headingBlock_h1{
+    padding: 2rem 2rem 12rem;
+    color: rgb(247, 241, 241);
+  }
+
+  a.anchorHB{
+    margin-right: 5%;
+    text-decoration: none;
+    font-weight: bolder;
+    
+  }
+
+  .anchorHeadingBlock{
+    margin-left: 60%;
+  }
+
+  @media(max-width:1115px){
+    .anchorHeadingBlock{
+      margin-left: 0;
+      text-align: center;
+    }
+  }
+  /*End Heading Block*/
+
+  /*course assign block*/
+
+.heading3{
+  text-shadow: 0 0 5px rgb(28, 2, 90);
+  color:white;
+  
+  
+}
+
+  .sub{
+    margin-left:4rem;
+  }
+  .selectYear{
+    padding-top: 0.35rem;
+  }
+  @media(max-width:768px){
+    .sub{
+      text-align: center;
+      margin-left:0;
+    }
+  }
+  /*end course assign block*/
+
+  /*Courses*/
+
+.course{
+  margin : 2% 12% 1%;
+  
+}
+.card{
+  border-radius: 1rem;
+  background-color: rgb(166, 168, 172);
+  border:none;
+  
+}
+.card:hover{
+  background-color: rgba(250, 254, 255);
+}
+
+a.cardAnchorTag:hover{
+  text-decoration: none;
+  color:black;
+  
+
+}
+a.cardAnchorTag{
+  color: white;
+}
+ /*End Courses*/

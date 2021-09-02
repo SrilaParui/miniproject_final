@@ -1,0 +1,72 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+   <!--Made with love by Mutiullah Samim -->
+   
+	<!--Bootsrap 4 CDN-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <!--Fontawesome CDN-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+	<!--Custom styles-->
+	<link rel="stylesheet" type="text/css" href="login.css">
+    
+</head>
+<body>
+<div class="container">
+	<div class="d-flex justify-content-center h-100">
+		<div class="card">
+			<div class="card-header" style="text-align: center;padding-top:2rem ;">
+				<h3>Log In</h3>
+			</div>
+			<div class="card-body">
+				<form action="login.php" method="post"> 
+					<div class="input-group form-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text" style="background-color: #0275d8;"><i class="fas fa-user"></i></span>
+						</div>
+                        <!-- Email input -->
+						<input type="email" name="email" class="form-control" placeholder="username"> 
+						
+					</div>
+					<div class="input-group form-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text" style="background-color: #0275d8;"><i class="fas fa-key"></i></span>
+						</div>
+                        <!-- Password input -->
+						<input type="password" name="password" id="password" class="form-control" placeholder="password">
+                        
+                        <div class="input-group-prepend" >
+							<span class="input-group-text" style="background-color: white;">
+                                <i class="fas fa-eye-slash" id="togglePassword"></i>
+                            </span>
+						</div>
+					</div>
+					
+					<div class="form-group d-grid">
+                        <button class="btn login_btn btn-primary" type="submit">Login</button>
+					</div>
+				</form>
+                <div class="d-flex justify-content-center links" style="color:black;">
+					Don't have an account?<a href="reg.html">Sign Up</a>
+				</div>
+				<div class="d-flex justify-content-center">
+					<a href="#">Forgot your password?</a>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</div>
+
+
+<script src="login.js" ></script>
+
+</body>
+</html>
